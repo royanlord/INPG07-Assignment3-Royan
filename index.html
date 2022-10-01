@@ -17,7 +17,6 @@
     <link rel="apple-touch-icon" sizes="180x180" href="style/icon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="style/icon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="style/icon/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
     <title>Covid-19 Tracker</title>
 </head>
 <body>
@@ -189,13 +188,13 @@
         $(function() {
             $("#date").datepicker({                  
                 maxDate: moment().toDate(),
+                minDate: new Date('2020/03/22'),
                 dateFormat: 'yy-mm-dd',
                 changeMonth: true,
                 changeYear: true,
                 showAnim: 'slideDown',
                 showButtonPanel: true,
                 closeText: "Close",
-                language: "id"
             })//.datepicker("setDate", new Date());
         } );
     </script>

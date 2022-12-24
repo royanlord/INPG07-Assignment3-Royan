@@ -12,7 +12,7 @@ btnCountry.addEventListener('click', function(event) {
     const options = {
         method: 'GET',
         headers: {
-            'X-RapidAPI-Key': '',
+            'X-RapidAPI-Key': 'aa5108d3c0msh3265849c5b214cfp1235cajsnef515cdda079',
             'X-RapidAPI-Host': 'covid-193.p.rapidapi.com'
         }
     };
